@@ -2,26 +2,57 @@ img{
 	max-width: 100%;
 }
 
+#cover-background{
+	background-color: white;
+	max-width: 900px;
+	padding-bottom: 1px;
+	margin: auto;
+	border: 1px solid #CDD6DB;
+}
+
 #facebook-wrapper{
 	/* if we need whole page styles */
+	background-color: #E9EBEE;
 }
 
 #header {
 	background-color: #3b5998;
 	overflow: hidden;
 	width: 100%;
+	height: 42px;
+	line-height: 42px
 }
 
 #left-header {
 
 }
+#avatar-name{
+	font-family: BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	font-size: 13px;
+	color: white;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+#home-link{
+	font-family: BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	font-size: 13px;
+	color: white;
+	margin-right: 3px;
+}
 
 #fb-logo{
+	margin-top: 10px;
 	height: 24px;
 	width: 24px;
 	background-image: url('fb-logo.png');
 	background-size: 26px 905px;
 	background-position: 0 -163px;
+}
+
+#mag-glass{
+	width: 10px;
+	background-color: white;
 }
 
 #fb-logo, #fb-search{
@@ -31,8 +62,10 @@ img{
 
 #fb-search input{
 	margin-top: 3px;
-	border-radius: 5px;
-	width: 200px;
+	border-radius: 5%;
+	width: 400px;
+	height: 20px;
+	font-size: 13px;
 }
 
 #header-inner {
@@ -46,11 +79,13 @@ img{
 
 #right-header div{
 	float: left;
+	margin-left: 10px;
 }
 
 #small-avatar{
 	height: 24px;
 	width: 24px;
+	margin-top: 6px;
 }
 
 /* This is a catch-all for the three social icons div */
@@ -58,7 +93,9 @@ img{
 	height: 24px;
 	width: 24px;
 	background-image: url('fb-logo.png');
-	background-size: 26px 905px;	
+	background-size: 26px 905px;
+	margin-left: 5px;	
+	margin-top: 7px;
 }
 
 .friends{
@@ -72,3 +109,148 @@ img{
 .notifications{
 	background-position: 0 -238px;
 }
+
+.lock{
+	background-position: 0 -859px;
+	height: 16px;
+	/* this will override the social icon */
+	margin-left: 10px;
+	margin-top: 12px;
+/* 	border-left: 1px solid #444;
+	padding-left: 10px; */
+}
+
+.down-arrow{
+	background-position: 0 -825px;
+	height: 16px;
+	margin-top: 12px;
+	float: right
+}
+
+.spacer{
+	line-height: 24px;
+	margin: 9px 10px;
+	font-size: 23px;
+	font-weight: 500;
+}
+
+#cover-photo-wrapper{
+/* 	background-color: #1d2129;
+ */	height: 420px;
+	max-width: 900px;
+	margin: auto;
+}
+
+#cover-photo{
+	height: 370px;
+	background-image: url('cover-photo.jpg');
+	width: 900px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+
+#profile-pic{
+	margin: -120px 0 0 35px;
+	width: 150px;
+	overflow: hidden;
+	float: left;
+	border: 1px solid grey;
+	background-color: white;
+	padding: 4px;
+}
+
+#profile-pic img{
+	width: 100%;
+}
+
+#full-name{
+	margin: -40px 0 0 25px;
+	float: left;
+	font-family: BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	color: white;
+	font-size: 24px;
+}
+
+#cover-buttons{
+	float: right;
+	margin: -35px 15px 0 0;
+}
+
+#cover-menu{
+	float: left;
+	margin-top: -16px;
+	font-family: "San Francisco", -apple-system, 
+	BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	font-size: 14px;
+	margin-left: 15px;
+}
+
+.cover-menu-item{
+	font-weight: 700;
+	text-align: center;
+	float: left;
+	list-style-type: none;
+	padding: 18px;
+	border: 1px solid #CDD6DB;
+	border-bottom: none;
+	background-color: white;
+	color: #366AB3;
+}
+
+#cover-buttons {
+	color: #808389;
+}
+
+#cover-buttons button{
+	width: 100px;
+	height: 30px;
+	background-color: #f2f2f2;
+	border: none;
+	font-family: BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+#body {
+	max-width: 900px;
+	margin: auto;
+}
+#left-top{
+	height: 300px;
+	width: 300px;
+	background-color: white;
+}
+
+#intro{
+	margin-top: 30px;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+
+.info-box{
+	height: 15px;
+	width: 200px;
+	float: left;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
