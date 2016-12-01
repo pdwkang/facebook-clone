@@ -234,16 +234,41 @@ img{
 	margin: auto;
 }
 
+#left{
+	width: 350px;
+	display: inline-block;
+}
+
 #left-top{
-	height: 300px;
+	width: 350px;
+	background-color: white;
+	display: inline-block;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+
+#left-second{
+	height: 200px;
+	width: 350px;
+	background-color: white;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+#left-third{
+	height: 550px;
 	width: 350px;
 	background-color: white;
 	display: inline-block;
 }
 
-#intro{
-	margin-left: 20px;
+.intro{
+	margin: 0 20px 20px 20px;
 	padding-top: 20px;
+	font-family: BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	font-size: 16px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #AFB8BE;
 }
 
 
@@ -251,8 +276,20 @@ img{
 	height: 15px;
 	width: 200px;
 	float: left;
-	border: 1px solid black;
-	margin: 10px;
+	margin: 8px 40px;
+	font-family: BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	font-size: 12px;
+}
+
+.blue{
+	color: #3658B3;
+}
+
+/* right */
+
+#right{
+	width: 500px;
+	float: right;
 }
 
 #right-top{
@@ -260,9 +297,59 @@ img{
 	width: 500px;
 	background-color: white;
 	float: right;
+	margin-bottom: 50px;
 }
 
+#status-menu{
+	padding: 5px 15px;
+	float: left;
+	width: 470px;
+	border-bottom: 1px solid #AFB8BE;
+	background-color: #F6F7F9;
+	font-family: "San Francisco", -apple-system, BlinkMacSystemFont, 
+	".SFNSText-Regular", sans-serif;
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+	font-weight: 500;
+}
 
+#status{
+	float: left;
+	padding: 0 15px 0 8px;
+}
+
+.status-spacer{
+	float: left;
+	font-size: 15px;
+	color: #AFB8BE;
+}
+
+#photo-video{
+	float: left;
+	padding: 0 15px;
+}
+
+#life-event{
+	float: left;
+	padding: 0 15px;
+}
+
+#right-second{
+	height: 400px;
+	width: 500px;
+	background-color: white;
+	float: right;
+	margin-bottom: 50px;
+}
+
+#right-third{
+	height: 400px;
+	width: 500px;
+	background-color: white;
+	float: right;
+	margin-bottom: 50px;
+}
 
 
 
