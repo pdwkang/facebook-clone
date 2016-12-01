@@ -20,12 +20,20 @@ img{
 	overflow: hidden;
 	width: 100%;
 	height: 42px;
-	line-height: 42px
+	line-height: 42px;
+}
+
+#red-number {
+	background-color: red;
+	color: white;
+	padding: 0 2px;
+	border-radius: 20%;
 }
 
 #left-header {
 
 }
+
 #avatar-name{
 	font-family: BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
 	font-size: 13px;
@@ -142,16 +150,17 @@ img{
 }
 
 #cover-photo{
-	height: 370px;
+	height: 380px;
 	background-image: url('cover-photo.jpg');
 	width: 900px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	overflow: hidden;
+	margin-top: -1px;
 }
 
 #profile-pic{
-	margin: -120px 0 0 35px;
+	margin: -140px 0 0 25px;
 	width: 150px;
 	overflow: hidden;
 	float: left;
@@ -191,7 +200,7 @@ img{
 	text-align: center;
 	float: left;
 	list-style-type: none;
-	padding: 18px;
+	padding: 13px 18px;
 	border: 1px solid #CDD6DB;
 	border-bottom: none;
 	background-color: white;
@@ -203,7 +212,7 @@ img{
 }
 
 #cover-buttons button{
-	width: 100px;
+	width: 130px;
 	height: 30px;
 	background-color: #f2f2f2;
 	border: none;
@@ -212,18 +221,27 @@ img{
 	font-weight: 700;
 }
 
-#body {
+/* below cover photo */
+
+#body-top-margin{
+	height: 35px;
+	width: 100%;
+	background-color: #E9EBEE;
+}
+
+#main-body {
 	max-width: 900px;
 	margin: auto;
 }
+
 #left-top{
 	height: 300px;
-	width: 300px;
+	width: 350px;
 	background-color: white;
+	display: inline-block;
 }
 
 #intro{
-	margin-top: 30px;
 	margin-left: 20px;
 	padding-top: 20px;
 }
@@ -237,13 +255,12 @@ img{
 	margin: 10px;
 }
 
-
-
-
-
-
-
-
+#right-top{
+	height: 100px;
+	width: 500px;
+	background-color: white;
+	float: right;
+}
 
 
 
